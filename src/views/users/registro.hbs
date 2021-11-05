@@ -1,0 +1,35 @@
+    <div class="ancho">
+      <div class="logo">
+        <a href="#"><img src="../imagenes/logo1.png"></a>
+      </div>
+      <div>
+      <nav>
+        <ul>
+         <li><a href="..">Inicio</a></li>
+         <li><a href="/users/grados">Grados</a></li>
+         <li><a href="/users/juegos">Juegos</a></li>
+         <li><a href="/users/registro">Registrate</a></li>
+         <li><a href="/users/login">Ingresa</a></li>
+         <li><a href="/users/perfil"><img src="../imagenes/niño.png"></a></li>
+        </ul>
+      </nav>
+      </div>
+  </div>
+
+<form id="formulario" action="/users/registro" method="POST">
+<h1 class="h1reg">REGISTRATE</h1>
+<fieldset>
+<p><label for="nombre">NOMBRE:</label><input type="text" class="form-control" name="nombre" placeholder="Nombre" value="{{nombre}}"></p>
+<p><label>APELLIDO:</label><input type="text" class="form-control" name="apellido" placeholder="Apellido" value="{{apellido}}"></p>
+<p><label>EMAIL:</label><input type="email" class="form-control" name="email" placeholder="Email" value="{{email}}"></p>
+<p><label>CONTRASEÑA:</label><input type="password" class="form-control" name="password" placeholder="Contraseña" value="{{password}}"></p>
+<p><label>EDAD:</label><input type="text" class="form-control" name="edad" placeholder="Edad" value="{{edad}}"></p>
+<p><label>GRADO:</label><input type="text" class="form-control" name="grado" placeholder="Grado" value="{{grado}}"></p>
+<p><input type="submit" value="REGISTRATE" class="registrar"></p>
+
+</fieldset>
+</form>
+
+<br></br>
+<hr></hr>
+<br></br>
